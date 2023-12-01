@@ -50,16 +50,16 @@ function Validate() {
         }
     }
     if (idInput.value == "" || idInput.value.charAt(0) === " ") {
-        alert("Please input for ID!" );
+        alert("Please input for ID!");
     } else if (nameInput.value == "" || nameInput.value.charAt(0) === " ") {
-        alert("Please input for Name !" );
+        alert("Please input for Name !");
     } else if (ageInput.value == "" || ageInput.value > 15 || ageInput.value < 1) {
         alert("Age must be between 1 and 15!");
     } else if (typeInput.value == "Select Type") {
         alert("Please select Type!");
-    } else if (weightInput.value == '' || weightInput.value > 15 || weightInput.value < 1) {
+    } else if (weightInput.value == '' || weightInput.value > 15 || weightInput.value < 1 ) {
         alert("Weight must be between 1 and 15!");
-    } else if (lengthInput.value == "" || lengthInput.value > 100 || lengthInput.value < 1)) {
+    } else if (lengthInput.value == "" || lengthInput.value > 100 || lengthInput.value < 1) {
         alert("Length must be between 1 and 100!");
     } else if (breedInput.value == "Select Breed") {
         alert("Please select Breed!");
