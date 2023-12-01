@@ -49,8 +49,10 @@ function Validate() {
             alert("ID must be unique!");
         }
     }
-    if (idInput.value == "" || idInput.value.charAt(0) === " ") {
+    if (idInput.value == "" ) {
         alert("Please input for ID!");
+    } else if ( idInput.value.charAt(0) === " ") {
+        alert("Data cannot use spaces ID!");
     } else if (nameInput.value == "" || nameInput.value.charAt(0) === " ") {
         alert("Please input for Name !");
     } else if (ageInput.value == "" || ageInput.value > 15 || ageInput.value < 1) {
